@@ -1,0 +1,10 @@
+# POST http://localhost:3000/newPost
+# Content-Type: application/json
+
+# {
+#     "title": "Post 2", "content": "Our second post", "owner": "Gefen"
+# }
+
+# GET http://localhost:3000/allPosts
+
+GET http://localhost:3000/post/67409aa6937a161711bf88c3
