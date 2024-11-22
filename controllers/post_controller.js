@@ -29,7 +29,7 @@ const getPostBySender = async (req, res) => {
   const { sender } = req.query;
 
   try {
-    const posts = await Posts.find({ sender });
+    const posts = await Posts.find({ owner: sender });
     if (posts) {
       res.send(posts);
     } else {
